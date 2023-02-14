@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import "./intro.scss"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import React, { Component, useEffect,useRef } from 'react'
+import React, {  useEffect,useRef } from 'react'
 import { init } from 'ityped'
 
 export default function Intro() {

@@ -21,7 +21,7 @@ export default function Works() {
     icon:<WebIcon/>,
     title:"Snake-Game",
     desc:"It is snake game built using React application,Redux,Redux-saga.   ",
-    img:"assets/snake.webp",
+    img:"assets/snake2.jpg",
     link:"https://snakegameplayfree.netlify.app/"
    },
    ];
@@ -50,7 +50,7 @@ export default function Works() {
             </div>
           </div>
           <div className="right">
-            <img src={d.img} alt="" />
+            <img src={d.img} alt=""  />
           </div>
         </div>
         

@@ -1,3 +1,4 @@
+@import "../../global.scss";
  .skill{
     background-color: crimson;
     height: 100vh;
@@ -19,6 +20,10 @@
       width: 500px;
       justify-content: space-between;
       justify-content: space-around;
+      @include mobile{
+        width: 300px;
+      }
+      
       .left{
         flex: 6;
         height: 100%;

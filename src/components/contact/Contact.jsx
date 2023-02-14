@@ -34,9 +34,9 @@ export default function Contact() {
       </div>
      <hr />
      <div className="copyright">
-      <span>Copyright 2023 | All Right Reserved.</span>
+      <span className="line1">Copyright 2023 | All Right Reserved.</span>
         
-      <span>  This Website is Designed & Developed by AmitNamdeo73 </span>
+     <center><span className="line2">  This Website is Designed & Developed by AmitNamdeo73 </span></center> 
      
      </div>
     </div>

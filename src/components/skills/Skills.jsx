@@ -1,5 +1,6 @@
 import "./skills.scss"
 
+
 export default function Skills() {
   return (
     <div className="skill" id="skill">

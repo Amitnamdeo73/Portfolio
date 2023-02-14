@@ -30,7 +30,7 @@ export default function Portfolio() {
           </div>
           <br></br>
           <center><span className="resume">
-           <a href="/file.txt" target="_blank" > Download Resume </a>
+           <a href="/Resume.pdf" target="_blank" > Download Resume </a>
           </span>
           </center>
         

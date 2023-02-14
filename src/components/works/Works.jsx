@@ -11,7 +11,7 @@ export default function Works() {
     id: "1",
     icon:<WebIcon/>,
     title:"Portfolio",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quod deleniti consequatu  ",
+    desc:"It is a react based Website built using JSX and SCSS.Responsive Web Design Compatible with Different Screen Size ",
     img:"assets/1stp.webp",
     link:""
 
@@ -20,7 +20,7 @@ export default function Works() {
     id: "2",
     icon:<WebIcon/>,
     title:"Snake-Game",
-    desc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quod deleniti consequatur  ",
+    desc:"It is snake game built using React application,Redux,Redux-saga.   ",
     img:"assets/snake.webp",
     link:"https://snakegameplayfree.netlify.app/"
    },

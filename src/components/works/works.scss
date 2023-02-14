@@ -125,16 +125,13 @@
               align-items: center;
               justify-content: center;
 
-              .img{
+              img{
                 @include mobile{
-                  height: 50%;
+                  height: 60%;
 
                  }
               }
-              @include mobile{
-                height: 70%;
-
-               }
+             
 
             }
           }

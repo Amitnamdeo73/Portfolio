@@ -1,0 +1,69 @@
+.intro {
+  background-color: white;
+  display: flex;
+}
+.intro .left {
+  flex: 0.5;
+  overflow: hidden;
+}
+.intro .left .imgcontainer {
+  width: 700px;
+  height: 700px;
+  background-color: crimson;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
+}
+.intro .left .imgcontainer img {
+  height: 100%;
+  padding-left: 30px;
+}
+.intro .right {
+  flex: 0.5;
+  position: relative;
+}
+.intro .right .wrapper {
+  width: 100%;
+  height: 100%;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro .right .wrapper h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+.intro .right .wrapper h2 {
+  font-size: 35px;
+}
+.intro .right .wrapper h3 {
+  font-size: 30px;
+}
+.intro .right .wrapper h3 span {
+  font-size: inherit;
+  position: absolute;
+}
+.intro .right a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.intro .right a .img {
+  width: 40px;
+  height: 60px;
+  -webkit-animation: arrowBlink 2s infinite;
+          animation: arrowBlink 2s infinite;
+}
+@-webkit-keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=intro.css.map */

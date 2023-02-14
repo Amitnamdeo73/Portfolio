@@ -131,6 +131,10 @@
 
                  }
               }
+              @include mobile{
+                height: 70%;
+
+               }
 
             }
           }

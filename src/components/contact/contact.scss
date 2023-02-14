@@ -50,7 +50,10 @@
        justify-content: center;
        justify-content: space-around;
        justify-content: space-between;
-
+       @include mobile{
+        padding-top: 3%;
+        
+       }
 
        input{
         width: 300px;
@@ -59,6 +62,7 @@
         @include mobile{
           width: 200px;
           height: 20px; 
+          margin-top: 5%;
          }
        }
 
@@ -68,7 +72,8 @@
         font-size: 14px;
         @include mobile{
           width: 200px;
-          height: 100px; 
+          height: 100px;
+          margin-top: 5%; 
          }
 
        }
@@ -84,6 +89,9 @@
         &:focus{
            outline: none; 
         }
+        @include mobile{
+          margin-top: 4%; 
+        }
        }
        span{
         color: green;
@@ -98,7 +106,9 @@
     justify-content: center;
     margin-top: 50px;
    
-   
+    @include mobile{
+      margin-top: 30%;
+    }
     a{
      width: 70px;
      height: 30px;
